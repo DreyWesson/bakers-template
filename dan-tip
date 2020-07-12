@@ -1,0 +1,43 @@
+<div class="head">
+            <h1>Some Of My Works</h1>
+            <img src="./assets/images/--.png" alt="">
+        </div>
+
+
+
+.head{
+    width: 275px;
+    margin: auto;
+    text-align: center;
+}
+.head  img{
+    width: 20px;
+    transform: translateY(-10px);
+}
+.head h1{
+    font-size: 40px;
+    font-family: 'clicker script';
+    font-weight: 100;
+    color: #4B420B;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.head h1::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 70px;
+    width: 50px;
+    height: 3px;
+    background-color: #E6B001;
+}
+.head h1::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 70px;
+    width: 50px;
+    height: 3px;
+    background-color: #E6B001;
+}

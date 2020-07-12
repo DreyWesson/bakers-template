@@ -1,0 +1,3 @@
+To keep images circular and responsive you've got to
+1. Keep the width height and border-radius on the same length.
+2. Use the background-position property to adjust parts you'll love visible

@@ -52,6 +52,7 @@ nav button.btn {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  /* object-fit: scale-down; */
 }
 
 .jumbotron h1 {
@@ -102,7 +103,83 @@ p.about-content {
   height: 500px;
   background-color: #eb5757;
 }
-@media screen and (min-width: 756) {
+.card1 {
+  /* border: 1px solid #eb5757; */
+  max-width: 100%;
+  min-height: 700px;
+}
+.card1-text {
+  background-color: #eb5757;
+  color: white;
+  opacity: 0.7;
+}
+
+.card1 p {
+  font-style: medium;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Testimony
+   ============================= */
+.testify-head {
+  /* font-size: 18px; */
+  line-height: 40px;
+}
+.img {
+  /* To keep */
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  background-image: url("/img/glasses.jpeg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
+  background-clip: padding-box;
+}
+
+/* Utilities 
+   ============================= */
+.head {
+  width: 275px;
+  margin: auto;
+  text-align: center;
+}
+.head img {
+  /* width: 20px;
+    transform: translateY(-10px); */
+}
+.head h2 {
+  /* font-size: 40px; */
+  font-family: "clicker script";
+  font-weight: 100;
+  /* color: #4B420B; */
+  position: relative;
+  /* width: 100%; */
+  /* margin: auto; */
+}
+.head h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 70px;
+  width: 50px;
+  height: 3px;
+  background-color: #eb5757;
+}
+.head h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 70px;
+  width: 50px;
+  height: 3px;
+  background-color: #eb5757;
+}
+
+@media screen and (min-width: 756px) {
   .img2 {
     position: absolute;
     left: 100px;
@@ -110,5 +187,8 @@ p.about-content {
     top: 50px;
     max-width: 100%;
     width: 100%;
+  }
+  .jumbotron {
+    background-position: center -190px;
   }
 }

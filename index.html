@@ -39,6 +39,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style></style>
     <title>Townlite</title>
   </head>
   <body>
@@ -69,7 +70,7 @@
                 >
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#about">ABOUT US</a>
+                <a class="nav-link" href="#about">ABOUT</a>
               </li>
               <li class="nav-item mx-4">
                 <a class="nav-link" href="#practice">PORTFOLIO</a>
@@ -91,12 +92,16 @@
     <section id="wellcome" class="jumbotron jumbotron-fluid">
       <div class="container py-5">
         <div class="row">
-          <div class="col-sm-12 col-lg-10 mx-3 banner">
+          <div class="col-sm-12 col-lg-11 mx-3 banner">
             <div class="text-right justify-content-center">
               <h1 style="margin-top: 140px;">Lovely Cakes</h1>
-              <button class="btn text-center">
-                <a href="" id="jumboBtn">ORDER NOW</a>
-              </button>
+              <div class="row p-4">
+                <div class="col-lg-11 col-push-8">
+                  <button class="btn justify-content-lg-left">
+                    <a href="" id="jumboBtn">ORDER NOW</a>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -106,14 +111,10 @@
     <!-- About Us -->
     <section id="about">
       <div class="container-fluid about">
-        <h2 class="text-center">About us</h2>
-        <div style="display: flex; margin: 0; padding: 0;">
-          <hr />
-          <i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i>
-          <hr />
+        <div class="head">
+          <h2 class="text-center">About us</h2>
         </div>
+
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-4 my-5">
             <img src="img/bake.jpeg" alt="" class="img-responsive img-fluid" />
@@ -141,10 +142,12 @@
           </div>
           <div class="col-sm-12 col-md-12 col-lg-4 my-5 justify-content-center">
             <div class="row">
-              <div class="justify-content-right col-sm-6">
+              <div class="justify-content-right col-sm-6 order-sm-2 order-md-1">
                 <img src="img/cake.jpeg" alt="" class="img2" />
               </div>
-              <div class="justify-content-right col-sm-6 about-thirdcol"></div>
+              <div
+                class="justify-content-right col-sm-6 about-thirdcol order-sm-1 order-md-2"
+              ></div>
             </div>
           </div>
         </div>
@@ -152,21 +155,126 @@
     </section>
     <!-- About Us End-->
 
-    <!-- About Us -->
+    <!-- Portfolio -->
     <section id="about">
-      <div class="container-fluid about">
-        <h2 class="text-center">Portfolio</h2>
-        <div style="display: flex; margin: 0; padding: 0;">
-          <hr />
-          <i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i>
-          <hr />
+      <div class="container about">
+        <div class="head">
+          <h2 class="text-center">Portfolio</h2>
         </div>
-        <div class="row"></div>
+
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4 mt-4 p-3 card1">
+            <div class="card profile-card-5">
+              <div class="card-img-block">
+                <img
+                  class="card-img-top"
+                  src="/img/flower.jpeg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body pt-0 py-3 card1-text">
+                <h5 class="card-title text-center">Marple Oat Muffin</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p><strong>$10.25</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4 mt-4 p-3 card2">
+            <div class="card profile-card-5">
+              <div class="card-img-block">
+                <img
+                  class="card-img-top"
+                  src="/img/family.jpeg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body pt-0 py-3 card1-text">
+                <h5 class="card-title text-center">Marple Oat Muffin</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p><strong>$10.25</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4 mt-4 p-3 card3">
+            <div class="card profile-card-5">
+              <div class="card-img-block">
+                <img
+                  class="card-img-top"
+                  src="/img/choc.jpeg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body pt-0 py-3 card1-text">
+                <h5 class="card-title text-center">Marple Oat Muffin</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p><strong>$10.25</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- About Us End-->
+    <!-- Porfolio End -->
+    <!-- Clients Testimony -->
+    <section>
+      <div class="container about">
+        <div class="head">
+          <h2 class="text-center">Client's Testimony</h2>
+        </div>
+        <div class="container-fluid m-5">
+          <div class="row">
+            <div class="testify-container col-md-6 col-lg-6">
+              <div class="testify-img">
+                <div class="img"></div>
+              </div>
+              <div class="m-4">
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto doloremque obcaecati amet, consequuntur nemo alias
+                  laudantium aspernatur illum, odio distinctio inventore
+                  suscipit asperiores dolor laborum porro sapiente repellat
+                  similique cum.Consequuntur veniam numquam cum alias obcaecati
+                  nobis a quibusdam tempora autem! Aliquid ex tempore aut, iste
+                  id nemo, a ea possimus, dicta magni quam voluptates? Ab quam
+                  laborum excepturi tempora.
+                </p>
+                <p class="testify-head"><strong>Jim Rosewood</strong></p>
+              </div>
+            </div>
+            <div class="testify-container col-md-6 col-lg-6">
+              <div class="testify-img">
+                <div class="img"></div>
+              </div>
+              <div class="m-4">
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur ullam eligendi cum nihil nesciunt beatae perferendis
+                  rem quia, aut est non id accusamus adipisci, doloremque error
+                  soluta molestias tempora. Perferendis!Ad rerum eos id optio
+                  porro assumenda quo iste fugiat amet, reprehenderit dolorum
+                  quasi, iure tenetur cumque cum cupiditate officia! Rerum velit
+                  quae quod dolore aliquid ea aut facilis quos?
+                </p>
+                <p class="testify-head"><strong>Jim Rosewood</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Testimony end -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
