@@ -91,13 +91,14 @@ p.about-content {
   font-size: 17px;
   /* line-height: 27px; */
 }
-.img2 {
-  position: absolute;
-  left: 100px;
-  z-index: 2;
-  top: 50px;
+/* .img2 { */
+/* position: absolute; */
+/* width: 400px;
+  left: 100px; */
+/* z-index: 2; */
+/* top: 50px;
   max-width: 200px;
-}
+} */
 .about-thirdcol {
   width: 200px;
   height: 500px;

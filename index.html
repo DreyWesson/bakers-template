@@ -93,10 +93,17 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-sm-12 col-lg-11 mx-3 banner">
-            <div class="text-right justify-content-center">
-              <h1 style="margin-top: 140px;">Lovely Cakes</h1>
+            <div
+              class="text-right justify-content-sm-right justify-content-md-center"
+            >
+              <h1 style="position: relative; top: 140px; left: 30px;">
+                Lovely Cakes
+              </h1>
               <div class="row p-4">
-                <div class="col-lg-11 col-push-8">
+                <div
+                  class="col-lg-11 col-push-8"
+                  style="position: relative; top: 140px; left: 25px;"
+                >
                   <button class="btn justify-content-lg-left">
                     <a href="" id="jumboBtn">ORDER NOW</a>
                   </button>
@@ -111,43 +118,63 @@
     <!-- About Us -->
     <section id="about">
       <div class="container-fluid about">
-        <div class="head">
-          <h2 class="text-center">About us</h2>
-        </div>
-
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4 my-5">
-            <img src="img/bake.jpeg" alt="" class="img-responsive img-fluid" />
+          <div class="head col-sm-12">
+            <h2 class="text-center">About us</h2>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 my-5">
-            <p class="about-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in
-              odio lobortis convallis. Fermentum enim pharetra lectus cursus
-              praesent diam id a suspendisse. Enim cras lacus, consectetur et
-              diam ut sed. Pellentesque eget egestas orci viverra consequat
-              elementum et. Nibh metus volutpat nulla a pretium elit sit
-              vestibulum ac. Gravida laoreet cras odio laoreet tellus quis
-              accumsan velit at. Imperdiet dictum faucibus quis scelerisque
-              proin. Nec ut ullamcorper dignissim venenatis pretium neque at.
-              Vitae tortor et consequat, erat tempor. Velit mauris, fermentum
-              aliquam sem ut. Quis eget sapien fermentum nisl nunc suspendisse.
-              Et nisi sit turpis donec vitae eu. Ipsum accumsan, duis viverra
-              vitae quam tristique auctor fusce. Gravida laoreet cras odio
-              laoreet tellus quis accumsan velit at. Imperdiet dictum faucibus
-              quis scelerisque proin. Nec ut ullamcorper dignissim venenatis
-              pretium neque at. Vitae tortor et consequat, erat tempor. Velit
-              mauris, fermentum aliquam sem ut. Quis eget sapien fermentum nisl
-              nunc suspendisse. Et nisi sit turpis donec vitae eu.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 my-5 justify-content-center">
+          <div class="col-sm-12">
             <div class="row">
-              <div class="justify-content-right col-sm-6 order-sm-2 order-md-1">
-                <img src="img/cake.jpeg" alt="" class="img2" />
+              <div class="col-sm-12 col-md-12 col-lg-4 my-5">
+                <img
+                  src="img/bake.jpeg"
+                  alt=""
+                  class="img-responsive img-fluid"
+                  style="object-fit: cover;"
+                />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4 my-5">
+                <p class="about-content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  in odio lobortis convallis. Fermentum enim pharetra lectus
+                  cursus praesent diam id a suspendisse. Enim cras lacus,
+                  consectetur et diam ut sed. Pellentesque eget egestas orci
+                  viverra consequat elementum et. Nibh metus volutpat nulla a
+                  pretium elit sit vestibulum ac. Gravida laoreet cras odio
+                  laoreet tellus quis accumsan velit at. Imperdiet dictum
+                  faucibus quis scelerisque proin. Nec ut ullamcorper dignissim
+                  venenatis pretium neque at. Vitae tortor et consequat, erat
+                  tempor. Velit mauris, fermentum aliquam sem ut. Quis eget
+                  sapien fermentum nisl nunc suspendisse. Et nisi sit turpis
+                  donec vitae eu. Ipsum accumsan, duis viverra vitae quam
+                  tristique auctor fusce. Gravida laoreet cras odio laoreet
+                  tellus quis accumsan velit at. Imperdiet dictum faucibus quis
+                  scelerisque proin. Nec ut ullamcorper dignissim venenatis
+                  pretium neque at. Vitae tortor et consequat, erat tempor.
+                  Velit mauris, fermentum aliquam sem ut. Quis eget sapien
+                  fermentum nisl nunc suspendisse. Et nisi sit turpis donec
+                  vitae eu.
+                </p>
               </div>
               <div
-                class="justify-content-right col-sm-6 about-thirdcol order-sm-1 order-md-2"
-              ></div>
+                class="col-sm-12 col-md-12 col-lg-4 my-5 justify-content-center"
+              >
+                <div class="row">
+                  <div
+                    class="col-sm-6 order-sm-2 order-sm-1 position-relative"
+                    style="top: 90px; left: 15%;"
+                  >
+                    <img
+                      src="img/cake.jpeg"
+                      alt=""
+                      class="img2"
+                      style="width: 180px;"
+                    />
+                  </div>
+                  <div
+                    class="justify-content-right col-sm-6 about-thirdcol order-sm-2"
+                  ></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -162,9 +189,12 @@
           <h2 class="text-center">Portfolio</h2>
         </div>
 
-        <div class="row">
+        <div class="row" style="min-height: 750px;">
           <!-- Card 1 -->
-          <div class="col-md-4 mt-4 p-3 card2">
+          <div
+            class="col-md-4 mt-4 p-3 card2 position-relative"
+            style="top: 100px;"
+          >
             <div class="card profile-card-5">
               <div class="card-img-block">
                 <img
@@ -174,7 +204,8 @@
                 />
               </div>
               <div
-                class="card-img-overlay d-flex flex-column h-50 justify-content-start pt-0 py-3 card1-text"
+                class="card-img-overlay d-flex flex-column h-25 justify-content-start pt-0 py-3 card1-text"
+                style="margin-top: 45vh;"
               >
                 <h5 class="card-title text-center">Marple Oat Muffin</h5>
                 <p class="card-text">
@@ -187,15 +218,10 @@
           </div>
           <!-- Card 2 -->
           <div class="col-md-4 mt-4 p-3 card1">
-            <div class="card profile-card-5">
-              <div class="card-body pt-0 py-3 card1-text">
-                <h5 class="card-title text-center">Marple Oat Muffin</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <p><strong>$10.25</strong></p>
-              </div>
+            <div
+              class="card profile-card-5 position-relative"
+              style="top: 50px;"
+            >
               <div class="card-img-block">
                 <img
                   class=""
@@ -203,6 +229,14 @@
                   alt="Card image cap"
                   style="height: 350px; object-fit: cover;"
                 />
+              </div>
+              <div class="card-body pt-0 py-3 card1-text">
+                <h5 class="card-title text-center">Marple Oat Muffin</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p><strong>$10.25</strong></p>
               </div>
             </div>
           </div>
@@ -213,8 +247,8 @@
                 <img class="" src="/img/choc.jpeg" alt="Card image cap" />
               </div>
               <div
-                class="card-img-overlay d-flex flex-column h-50 justify-content-start pt-0 py-3 card1-text"
-                style="max-height: 300px;"
+                class="card-img-overlay d-flex flex-column h-25 justify-content-start pt-0 py-3 card1-text"
+                style="margin-top: 45vh;"
               >
                 <h5 class="card-title text-center">Marple Oat Muffin</h5>
                 <p class="card-text">
@@ -234,7 +268,7 @@
         <div class="head">
           <h2 class="text-center">Client's Testimony</h2>
         </div>
-        <div class="container-fluid m-5">
+        <div class="container m-5">
           <div class="row">
             <div class="testify-container col-md-6 col-lg-6">
               <div class="testify-img">
@@ -254,7 +288,7 @@
                 <p class="testify-head"><strong>Jim Rosewood</strong></p>
               </div>
             </div>
-            <div class="testify-container col-md-6 col-lg-6">
+            <div class="col-md-6 col-lg-6">
               <div class="testify-img">
                 <div class="img"></div>
               </div>
