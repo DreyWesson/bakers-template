@@ -46,7 +46,7 @@
     <!-- HEADER -->
     <header>
       <nav
-        class="container-fluid navbar navbar-expand-lg navbar-light bg-darken-5 fixed-top"
+        class="container-fluid navbar navbar-expand-md navbar-light bg-darken-5 fixed-top"
       >
         <div class="container-fluid d-flex justify-content-lg-center col-lg-9">
           <a class="navbar-brand" href="#">Townlite</a>
@@ -263,7 +263,7 @@
     </section>
     <!-- Porfolio End -->
     <!-- Clients Testimony -->
-    <section>
+    <section id="practice">
       <div class="container about">
         <div class="head">
           <h2 class="text-center">Client's Testimony</h2>
@@ -325,5 +325,27 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const ul = document.querySelector(".navbar-nav");
+      if (ul) {
+        const navItems = [...ul.getElementsByTagName("li")];
+        navItems.forEach((li) => {
+          li.addEventListener("click", function () {
+            if (!this.classList.contains("active")) {
+              clearActives(navItems);
+              this.classList.toggle("active");
+            }
+          });
+        });
+      }
+
+      function clearActives(classlist) {
+        if (classlist) {
+          classlist.forEach((classLi, i) => {
+            classLi.classList.remove("active");
+          });
+        }
+      }
+    </script>
   </body>
 </html>
