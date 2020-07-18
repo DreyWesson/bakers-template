@@ -86,8 +86,18 @@ nav button.btn {
 }
 
 .img1 {
-  left: 80px;
+  /* display: none; */
+  left: 180px;
+  top: -150px;
+  height: 200px;
+  max-height: 200px;
+  max-width: 100%;
   z-index: 2;
+  max-height: 100px;
+}
+.img1 img {
+  max-height: auto;
+  object-fit: cover;
 }
 .about-thirdcol {
   height: 500px;
@@ -168,6 +178,14 @@ nav button.btn {
   .position-relative {
     left: 80px;
     z-index: 2;
+  }
+  .img1 {
+    left: 80px;
+    z-index: 2;
+  }
+  .img1 img {
+    max-height: 350px;
+    object-fit: cover;
   }
 }
 @media only screen and (min-width: 1090px) {
