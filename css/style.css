@@ -58,8 +58,8 @@ nav button.btn {
 .jumbotron h1 {
   font-family: "Clicker Script", cursive;
   font-style: normal;
-  font-weight: normal;
-  font-size: 4em;
+  font-weight: bold;
+  font-size: 2em;
   /* line-height: 90px; */
   color: #eb5757;
 }
@@ -80,47 +80,18 @@ nav button.btn {
   font-size: 60px;
   line-height: 79px;
 }
-.about i {
-  color: #eb5757;
-}
-hr {
-  width: 150px;
-  border: 1px solid #eb5757;
-}
-p.about-content {
-  font-size: 17px;
-  /* line-height: 27px; */
-}
-/* .img2 { */
-/* position: absolute; */
-/* width: 400px;
-  left: 100px; */
-/* z-index: 2; */
-/* top: 50px;
-  max-width: 200px;
-} */
-.about-thirdcol {
-  width: 200px;
-  height: 500px;
-  background-color: #eb5757;
-}
-.card1 {
-  /* border: 1px solid #eb5757; */
-  max-width: 100%;
-  /* min-height: 700px; */
-}
-.card1-text {
-  background-color: #eb5757;
-  color: white;
-  opacity: 0.7;
-  /* margin-top: 17.5em; */
+.position-relative {
+  /* left: 80px;
+  z-index: 2; */
 }
 
-.card1 p {
-  font-style: medium;
-  font-size: 14px;
-  line-height: 21px;
-  font-family: "Poppins", sans-serif;
+.img1 {
+  left: 80px;
+  z-index: 2;
+}
+.about-thirdcol {
+  height: 500px;
+  background-color: #eb5757;
 }
 
 /* Testimony
@@ -181,7 +152,25 @@ p.about-content {
   background-color: #eb5757;
 }
 
-@media screen and (min-width: 756px) {
+@media only screen and (min-width: 756px) {
+  .img2 {
+    position: absolute;
+    left: 100px;
+    z-index: 2;
+    top: 50px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .jumbotron h1 {
+    font-size: 4.2em;
+    font-weight: normal;
+  }
+  .position-relative {
+    left: 80px;
+    z-index: 2;
+  }
+}
+@media only screen and (min-width: 1090px) {
   .img2 {
     position: absolute;
     left: 100px;
@@ -192,5 +181,6 @@ p.about-content {
   }
   .jumbotron h1 {
     font-size: 6em;
+    font-weight: normal;
   }
 }
