@@ -190,9 +190,6 @@ p.about-content {
     max-width: 100%;
     width: 100%;
   }
-  .jumbotron {
-    background-position: center -190px;
-  }
   .jumbotron h1 {
     font-size: 6em;
   }
