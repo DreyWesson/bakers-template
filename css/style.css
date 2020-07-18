@@ -59,8 +59,8 @@ nav button.btn {
   font-family: "Clicker Script", cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 94px;
-  line-height: 90px;
+  font-size: 4em;
+  /* line-height: 90px; */
   color: #eb5757;
 }
 
@@ -192,5 +192,8 @@ p.about-content {
   }
   .jumbotron {
     background-position: center -190px;
+  }
+  .jumbotron h1 {
+    font-size: 6em;
   }
 }
